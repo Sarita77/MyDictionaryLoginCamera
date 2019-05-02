@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyDictionary</string>
+    <string-array name="theEnglish">
+        <item>Apple</item>
+        <item>Ball</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Ele</item>
+    </string-array>
+    <string name="title_activity_add_word">AddWord</string>
+
+</resources>
+
