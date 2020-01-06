@@ -12,47 +12,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".SplashActivity">
-=======
+
+        <activity android:name=".SplashActivity"/>
+
         <activity android:name=".CameraActivity">
 
         </activity>
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".LoginActivity">
->>>>>>> 5cb3e503522a7444879c26baa0487f3758c9720a
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-<<<<<<< HEAD
-        </activity>
-        <activity android:name=".CameraActivity"></activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity">
-=======
->>>>>>> 5cb3e503522a7444879c26baa0487f3758c9720a
 
         </activity>
+
+
+
         <activity android:name=".DashboardActivity">
+        </activity>
+        <activity android:name=".AddCountryActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddCountryActivity" />
-        <activity android:name=".CapitalActivity" />
+        <activity android:name=".CapitalActivity" >
+
+        </activity>
         <activity
             android:name=".MainActivity"
-<<<<<<< HEAD
-            android:label="My Happy Dictionary"></activity>
-=======
-            android:label="My Happy Dictionary">
 
-        </activity>
->>>>>>> 5cb3e503522a7444879c26baa0487f3758c9720a
+            android:label="My Happy Dictionary"></activity>
+
     </application>
 
 </manifest>
